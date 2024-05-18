@@ -31,5 +31,14 @@ HTML
 * PUT /movie/{movieId}: Update movie information.
 
 ## ScreenShots
-<img src="https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(100).png?raw=true"  alt="List of Movies"  width="300"/>
+<img src = "https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(99).png?raw=true" 
+alt="json data" width="500"/> 
+
+<img src="https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(100).png?raw=true"  alt="List of Movies"  width="500"/>
+
+<img src = "https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(101).png?raw=true" alt="Movie Details" width="500"/>
+
+<img src = "https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(102).png?raw=true" alt = "Booking Details" width = "500">
+
+
 
