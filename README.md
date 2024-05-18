@@ -31,4 +31,5 @@ HTML
 * PUT /movie/{movieId}: Update movie information.
 
 ## ScreenShots
-![List of Movies](https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(100).png?raw=true)
+<img src="https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(100).png?raw=true"  alt="List of Movies"  width="300"/>
+
