@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Ticket Booking</title>
+  <style>
+    /* Add your CSS styles here */
+  </style>
+</head>
+<body>
+<h2>Movie Details</h2>
+<form id="MovieForm">
+  <label for="title">Enter Movie Title:</label>
+  <input type="text" id="title" name="title" required>
+  <button type="submit">Get Details</button>
+</form>
+
+<div id="movieDetails"></div>
+
+<script>
+    var temp; // Declare temp variable outside the fetch
+
+    fetch('http://localhost:8080/movie')
+      .then(response => response.json())
+      .then(data => {
+        temp = data; // Store fetched data in temp
+      })
+      .catch(error => console.error('Error fetching movie data', error));
+
+    document.getElementById("MovieForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+
+      // fetch detail by name
+      var title = document.getElementById("title").value;
+      var moviename = temp.find(item => item.title == title);
+
+      // Display movie details on the webpage
+      var movieDetailsElement = document.getElementById("movieDetails");
+      if (moviename) {
+        movieDetailsElement.innerHTML = `
+          <h3>Movie Details</h3>
+          <p><strong>Name:</strong> ${moviename.title}</p>
+          <p><strong>Price:</strong> ${moviename.price}</p>
+          <p><strong>Director:</strong> ${moviename.director}</p>
+        `;
+      } else {
+        movieDetailsElement.innerHTML = "<p>Movie not found!</p>";
+      }
+    });
+  </script>
+</body>
+</html>

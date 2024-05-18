@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Detail Form</title>
+</head>
+<body>
+  <h2>Movie Detail Form</h2>
+  <form id="movieForm" action="#" target="bookingMessage">
+    <label for="movieid">Movie ID:</label><br>
+    <input type="text" id="movieid" name="movieid"><br>
+
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title"><br>
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br>
+
+    <label for="location">Location:</label><br>
+    <input type="text" id="location" name="location"><br>
+
+    <label for="booked">Booked Tickets:</label><br>
+    <input type="number" id="booked" name="booked" min="0"><br>
+
+    <label for="totalprice">Total Price:</label><br>
+    <input type="number" id="totalprice" name="totalprice" min="0"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <iframe id="bookingMessage" name="bookingMessage" style="display: none;"></iframe>
+</body>
+</html>
