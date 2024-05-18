@@ -29,3 +29,6 @@ HTML
 * POST /movie/booking/{movieId}/{tickets}: Create a new booking.
 * DELETE /movie/{movieId}: Delete a movie.
 * PUT /movie/{movieId}: Update movie information.
+
+## ScreenShots
+![List of Movies](https://github.com/16AbhishekAnand/Movie-Ticket-Booking/blob/main/Movie-Ticket-Booking-Project-main/Screenshots/Screenshot%20(100).png?raw=true)
